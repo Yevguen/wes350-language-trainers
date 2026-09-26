@@ -1,0 +1,1602 @@
+vb_forms_dict = {
+  "abstenerse": {
+    "yo": "me abstuve",
+    "tú": "te abstuviste",
+    "él/ella/usted": "se abstuvo",
+    "nosotros/nosotras": "nos abstuvimos",
+    "vosotros/vosotras": "os abstuvisteis",
+    "ellos/ellas/ustedes": "se abstuvieron"
+  },
+  "abstraer": {
+    "yo": "abstraje",
+    "tú": "abstrajiste",
+    "él/ella/usted": "abstrajo",
+    "nosotros/nosotras": "abstrajimos",
+    "vosotros/vosotras": "abstrajisteis",
+    "ellos/ellas/ustedes": "abstrajeron"
+  },
+  "adherir": {
+    "yo": "adherí",
+    "tú": "adheriste",
+    "él/ella/usted": "adhirió",
+    "nosotros/nosotras": "adherimos",
+    "vosotros/vosotras": "adheristeis",
+    "ellos/ellas/ustedes": "adhirieron"
+  },
+  "aducir": {
+    "yo": "aduje",
+    "tú": "adujiste",
+    "él/ella/usted": "adujo",
+    "nosotros/nosotras": "adujimos",
+    "vosotros/vosotras": "adujisteis",
+    "ellos/ellas/ustedes": "adujeron"
+  },
+  "advertir": {
+    "yo": "advertí",
+    "tú": "advertiste",
+    "él/ella/usted": "advirtió",
+    "nosotros/nosotras": "advertimos",
+    "vosotros/vosotras": "advertisteis",
+    "ellos/ellas/ustedes": "advirtieron"
+  },
+  "almorzar": {
+    "yo": "almorcé",
+    "tú": "almorzaste",
+    "él/ella/usted": "almorzó",
+    "nosotros/nosotras": "almorzamos",
+    "vosotros/vosotras": "almorzasteis",
+    "ellos/ellas/ustedes": "almorzaron"
+  },
+  "andar": {
+    "yo": "anduve",
+    "tú": "anduviste",
+    "él/ella/usted": "anduvo",
+    "nosotros/nosotras": "anduvimos",
+    "vosotros/vosotras": "anduvisteis",
+    "ellos/ellas/ustedes": "anduvieron"
+  },
+  "argüir": {
+    "yo": "argüí",
+    "tú": "argüiste",
+    "él/ella/usted": "arguyó",
+    "nosotros/nosotras": "argüimos",
+    "vosotros/vosotras": "argüisteis",
+    "ellos/ellas/ustedes": "arguyeron"
+  },
+  "arrepentirse": {
+    "yo": "me arrepentí",
+    "tú": "te arrepentiste",
+    "él/ella/usted": "se arrepintió",
+    "nosotros/nosotras": "nos arrepentimos",
+    "vosotros/vosotras": "os arrepentisteis",
+    "ellos/ellas/ustedes": "se arrepintieron"
+  },
+  "asentir": {
+    "yo": "asentí",
+    "tú": "asentiste",
+    "él/ella/usted": "asintió",
+    "nosotros/nosotras": "asentimos",
+    "vosotros/vosotras": "asentisteis",
+    "ellos/ellas/ustedes": "asintieron"
+  },
+  "atenerse": {
+    "yo": "me atuve",
+    "tú": "te atuviste",
+    "él/ella/usted": "se atuvo",
+    "nosotros/nosotras": "nos atuvimos",
+    "vosotros/vosotras": "os atuvisteis",
+    "ellos/ellas/ustedes": "se atuvieron"
+  },
+  "atraer": {
+    "yo": "atraje",
+    "tú": "atrajiste",
+    "él/ella/usted": "atrajo",
+    "nosotros/nosotras": "atrajimos",
+    "vosotros/vosotras": "atrajisteis",
+    "ellos/ellas/ustedes": "atrajeron"
+  },
+  "avenir": {
+    "yo": "avine",
+    "tú": "aviniste",
+    "él/ella/usted": "avino",
+    "nosotros/nosotras": "avinimos",
+    "vosotros/vosotras": "avinisteis",
+    "ellos/ellas/ustedes": "avinieron"
+  },
+  "avenirse": {
+    "yo": "me avine",
+    "tú": "te aviniste",
+    "él/ella/usted": "se avino",
+    "nosotros/nosotras": "nos avinimos",
+    "vosotros/vosotras": "os avinisteis",
+    "ellos/ellas/ustedes": "se avinieron"
+  },
+  "avergonzar": {
+    "yo": "avergoncé",
+    "tú": "avergonzaste",
+    "él/ella/usted": "avergonzó",
+    "nosotros/nosotras": "avergonzamos",
+    "vosotros/vosotras": "avergonzasteis",
+    "ellos/ellas/ustedes": "avergonzaron"
+  },
+  "avergonzarse": {
+    "yo": "me avergoncé",
+    "tú": "te avergonzaste",
+    "él/ella/usted": "se avergonzó",
+    "nosotros/nosotras": "nos avergonzamos",
+    "vosotros/vosotras": "os avergonzasteis",
+    "ellos/ellas/ustedes": "se avergonzaron"
+  },
+  "bendecir": {
+    "yo": "bendije",
+    "tú": "bendijiste",
+    "él/ella/usted": "bendijo",
+    "nosotros/nosotras": "bendijimos",
+    "vosotros/vosotras": "bendijisteis",
+    "ellos/ellas/ustedes": "bendijeron"
+  },
+  "caber": {
+    "yo": "cupe",
+    "tú": "cupiste",
+    "él/ella/usted": "cupo",
+    "nosotros/nosotras": "cupimos",
+    "vosotros/vosotras": "cupisteis",
+    "ellos/ellas/ustedes": "cupieron"
+  },
+  "caer": {
+    "yo": "caí",
+    "tú": "caíste",
+    "él/ella/usted": "cayó",
+    "nosotros/nosotras": "caímos",
+    "vosotros/vosotras": "caísteis",
+    "ellos/ellas/ustedes": "cayeron"
+  },
+  "caerse": {
+    "yo": "me caí",
+    "tú": "te caíste",
+    "él/ella/usted": "se cayó",
+    "nosotros/nosotras": "nos caímos",
+    "vosotros/vosotras": "os caísteis",
+    "ellos/ellas/ustedes": "se cayeron"
+  },
+  "cegar": {
+    "yo": "cegué",
+    "tú": "cegaste",
+    "él/ella/usted": "cegó",
+    "nosotros/nosotras": "cegamos",
+    "vosotros/vosotras": "cegasteis",
+    "ellos/ellas/ustedes": "cegaron"
+  },
+  "ceñir": {
+    "yo": "ceñí",
+    "tú": "ceñiste",
+    "él/ella/usted": "ciñó",
+    "nosotros/nosotras": "ceñimos",
+    "vosotros/vosotras": "ceñisteis",
+    "ellos/ellas/ustedes": "ciñeron"
+  },
+  "colegir": {
+    "yo": "colegí",
+    "tú": "colegiste",
+    "él/ella/usted": "coligió",
+    "nosotros/nosotras": "colegimos",
+    "vosotros/vosotras": "colegisteis",
+    "ellos/ellas/ustedes": "coligieron"
+  },
+  "colgar": {
+    "yo": "colgué",
+    "tú": "colgaste",
+    "él/ella/usted": "colgó",
+    "nosotros/nosotras": "colgamos",
+    "vosotros/vosotras": "colgasteis",
+    "ellos/ellas/ustedes": "colgaron"
+  },
+  "comenzar": {
+    "yo": "comencé",
+    "tú": "comenzaste",
+    "él/ella/usted": "comenzó",
+    "nosotros/nosotras": "comenzamos",
+    "vosotros/vosotras": "comenzasteis",
+    "ellos/ellas/ustedes": "comenzaron"
+  },
+  "competir": {
+    "yo": "competí",
+    "tú": "competiste",
+    "él/ella/usted": "compitió",
+    "nosotros/nosotras": "competimos",
+    "vosotros/vosotras": "competisteis",
+    "ellos/ellas/ustedes": "compitieron"
+  },
+  "componer": {
+    "yo": "compuse",
+    "tú": "compusiste",
+    "él/ella/usted": "compuso",
+    "nosotros/nosotras": "compusimos",
+    "vosotros/vosotras": "compusisteis",
+    "ellos/ellas/ustedes": "compusieron"
+  },
+  "concebir": {
+    "yo": "concebí",
+    "tú": "concebiste",
+    "él/ella/usted": "concibió",
+    "nosotros/nosotras": "concebimos",
+    "vosotros/vosotras": "concebisteis",
+    "ellos/ellas/ustedes": "concibieron"
+  },
+  "conducir": {
+    "yo": "conduje",
+    "tú": "condujiste",
+    "él/ella/usted": "condujo",
+    "nosotros/nosotras": "condujimos",
+    "vosotros/vosotras": "condujisteis",
+    "ellos/ellas/ustedes": "condujeron"
+  },
+  "conferir": {
+    "yo": "conferí",
+    "tú": "conferiste",
+    "él/ella/usted": "confirió",
+    "nosotros/nosotras": "conferimos",
+    "vosotros/vosotras": "conferisteis",
+    "ellos/ellas/ustedes": "confirieron"
+  },
+  "conseguir": {
+    "yo": "conseguí",
+    "tú": "conseguiste",
+    "él/ella/usted": "consiguió",
+    "nosotros/nosotras": "conseguimos",
+    "vosotros/vosotras": "conseguisteis",
+    "ellos/ellas/ustedes": "consiguieron"
+  },
+  "consentir": {
+    "yo": "consentí",
+    "tú": "consentiste",
+    "él/ella/usted": "consintió",
+    "nosotros/nosotras": "consentimos",
+    "vosotros/vosotras": "consentisteis",
+    "ellos/ellas/ustedes": "consintieron"
+  },
+  "constreñir": {
+    "yo": "constreñí",
+    "tú": "constreñiste",
+    "él/ella/usted": "constriñó",
+    "nosotros/nosotras": "constreñimos",
+    "vosotros/vosotras": "constreñisteis",
+    "ellos/ellas/ustedes": "constriñeron"
+  },
+  "contener": {
+    "yo": "contuve",
+    "tú": "contuviste",
+    "él/ella/usted": "contuvo",
+    "nosotros/nosotras": "contuvimos",
+    "vosotros/vosotras": "contuvisteis",
+    "ellos/ellas/ustedes": "contuvieron"
+  },
+  "contradecir": {
+    "yo": "contradije",
+    "tú": "contradijiste",
+    "él/ella/usted": "contradijo",
+    "nosotros/nosotras": "contradijimos",
+    "vosotros/vosotras": "contradijisteis",
+    "ellos/ellas/ustedes": "contradijeron"
+  },
+  "contraer": {
+    "yo": "contraje",
+    "tú": "contrajiste",
+    "él/ella/usted": "contrajo",
+    "nosotros/nosotras": "contrajimos",
+    "vosotros/vosotras": "contrajisteis",
+    "ellos/ellas/ustedes": "contrajeron"
+  },
+  "convenir": {
+    "yo": "convine",
+    "tú": "conviniste",
+    "él/ella/usted": "convino",
+    "nosotros/nosotras": "convinimos",
+    "vosotros/vosotras": "convinisteis",
+    "ellos/ellas/ustedes": "convinieron"
+  },
+  "convertir": {
+    "yo": "convertí",
+    "tú": "convertiste",
+    "él/ella/usted": "convirtió",
+    "nosotros/nosotras": "convertimos",
+    "vosotros/vosotras": "convertisteis",
+    "ellos/ellas/ustedes": "convirtieron"
+  },
+  "convertirse": {
+    "yo": "me convertí",
+    "tú": "te convertiste",
+    "él/ella/usted": "se convirtió",
+    "nosotros/nosotras": "nos convertimos",
+    "vosotros/vosotras": "os convertisteis",
+    "ellos/ellas/ustedes": "se convirtieron"
+  },
+  "corregir": {
+    "yo": "corregí",
+    "tú": "corregiste",
+    "él/ella/usted": "corrigió",
+    "nosotros/nosotras": "corregimos",
+    "vosotros/vosotras": "corregisteis",
+    "ellos/ellas/ustedes": "corrigieron"
+  },
+  "corroer": {
+    "yo": "corroí",
+    "tú": "corroíste",
+    "él/ella/usted": "corroyó",
+    "nosotros/nosotras": "corroímos",
+    "vosotros/vosotras": "corroísteis",
+    "ellos/ellas/ustedes": "corroyeron"
+  },
+  "dar": {
+    "yo": "di",
+    "tú": "diste",
+    "él/ella/usted": "dio",
+    "nosotros/nosotras": "dimos",
+    "vosotros/vosotras": "disteis",
+    "ellos/ellas/ustedes": "dieron"
+  },
+  "darse": {
+    "yo": "me di",
+    "tú": "te diste",
+    "él/ella/usted": "se dio",
+    "nosotros/nosotras": "nos dimos",
+    "vosotros/vosotras": "os disteis",
+    "ellos/ellas/ustedes": "se dieron"
+  },
+  "decaer": {
+    "yo": "decaí",
+    "tú": "decaíste",
+    "él/ella/usted": "decayó",
+    "nosotros/nosotras": "decaímos",
+    "vosotros/vosotras": "decaísteis",
+    "ellos/ellas/ustedes": "decayeron"
+  },
+  "decir": {
+    "yo": "dije",
+    "tú": "dijiste",
+    "él/ella/usted": "dijo",
+    "nosotros/nosotras": "dijimos",
+    "vosotros/vosotras": "dijisteis",
+    "ellos/ellas/ustedes": "dijeron"
+  },
+  "deducir": {
+    "yo": "deduje",
+    "tú": "dedujiste",
+    "él/ella/usted": "dedujo",
+    "nosotros/nosotras": "dedujimos",
+    "vosotros/vosotras": "dedujisteis",
+    "ellos/ellas/ustedes": "dedujeron"
+  },
+  "deferir": {
+    "yo": "deferí",
+    "tú": "deferiste",
+    "él/ella/usted": "defirió",
+    "nosotros/nosotras": "deferimos",
+    "vosotros/vosotras": "deferisteis",
+    "ellos/ellas/ustedes": "defirieron"
+  },
+  "denegar": {
+    "yo": "denegué",
+    "tú": "denegaste",
+    "él/ella/usted": "denegó",
+    "nosotros/nosotras": "denegamos",
+    "vosotros/vosotras": "denegasteis",
+    "ellos/ellas/ustedes": "denegaron"
+  },
+  "deponer": {
+    "yo": "depuse",
+    "tú": "depusiste",
+    "él/ella/usted": "depuso",
+    "nosotros/nosotras": "depusimos",
+    "vosotros/vosotras": "depusisteis",
+    "ellos/ellas/ustedes": "depusieron"
+  },
+  "derretir": {
+    "yo": "derretí",
+    "tú": "derretiste",
+    "él/ella/usted": "derritió",
+    "nosotros/nosotras": "derretimos",
+    "vosotros/vosotras": "derretisteis",
+    "ellos/ellas/ustedes": "derritieron"
+  },
+  "derretirse": {
+    "yo": "me derretí",
+    "tú": "te derretiste",
+    "él/ella/usted": "se derritió",
+    "nosotros/nosotras": "nos derretimos",
+    "vosotros/vosotras": "os derretisteis",
+    "ellos/ellas/ustedes": "se derritieron"
+  },
+  "descomponer": {
+    "yo": "descompuse",
+    "tú": "descompusiste",
+    "él/ella/usted": "descompuso",
+    "nosotros/nosotras": "descompusimos",
+    "vosotros/vosotras": "descompusisteis",
+    "ellos/ellas/ustedes": "descompusieron"
+  },
+  "desdecir": {
+    "yo": "desdije",
+    "tú": "desdijiste",
+    "él/ella/usted": "desdijo",
+    "nosotros/nosotras": "desdijimos",
+    "vosotros/vosotras": "desdijisteis",
+    "ellos/ellas/ustedes": "desdijeron"
+  },
+  "deshacer": {
+    "yo": "deshice",
+    "tú": "deshiciste",
+    "él/ella/usted": "deshizo",
+    "nosotros/nosotras": "deshicimos",
+    "vosotros/vosotras": "deshicisteis",
+    "ellos/ellas/ustedes": "deshicieron"
+  },
+  "deshacerse": {
+    "yo": "me deshice",
+    "tú": "te deshiciste",
+    "él/ella/usted": "se deshizo",
+    "nosotros/nosotras": "nos deshicimos",
+    "vosotros/vosotras": "os deshicisteis",
+    "ellos/ellas/ustedes": "se deshicieron"
+  },
+  "despedir": {
+    "yo": "despedí",
+    "tú": "despediste",
+    "él/ella/usted": "despidió",
+    "nosotros/nosotras": "despedimos",
+    "vosotros/vosotras": "despedisteis",
+    "ellos/ellas/ustedes": "despidieron"
+  },
+  "despedirse": {
+    "yo": "me despedí",
+    "tú": "te despediste",
+    "él/ella/usted": "se despidió",
+    "nosotros/nosotras": "nos despedimos",
+    "vosotros/vosotras": "os despedisteis",
+    "ellos/ellas/ustedes": "se despidieron"
+  },
+  "desteñir": {
+    "yo": "desteñí",
+    "tú": "desteñiste",
+    "él/ella/usted": "destiñó",
+    "nosotros/nosotras": "desteñimos",
+    "vosotros/vosotras": "desteñisteis",
+    "ellos/ellas/ustedes": "destiñeron"
+  },
+  "desvestir": {
+    "yo": "desvestí",
+    "tú": "desvestiste",
+    "él/ella/usted": "desvistió",
+    "nosotros/nosotras": "desvestimos",
+    "vosotros/vosotras": "desvestisteis",
+    "ellos/ellas/ustedes": "desvistieron"
+  },
+  "desvestirse": {
+    "yo": "me desvestí",
+    "tú": "te desvestiste",
+    "él/ella/usted": "se desvistió",
+    "nosotros/nosotras": "nos desvestimos",
+    "vosotros/vosotras": "os desvestisteis",
+    "ellos/ellas/ustedes": "se desvistieron"
+  },
+  "detener": {
+    "yo": "detuve",
+    "tú": "detuviste",
+    "él/ella/usted": "detuvo",
+    "nosotros/nosotras": "detuvimos",
+    "vosotros/vosotras": "detuvisteis",
+    "ellos/ellas/ustedes": "detuvieron"
+  },
+  "detenerse": {
+    "yo": "me detuve",
+    "tú": "te detuviste",
+    "él/ella/usted": "se detuvo",
+    "nosotros/nosotras": "nos detuvimos",
+    "vosotros/vosotras": "os detuvisteis",
+    "ellos/ellas/ustedes": "se detuvieron"
+  },
+  "devenir": {
+    "yo": "devine",
+    "tú": "deviniste",
+    "él/ella/usted": "devino",
+    "nosotros/nosotras": "devinimos",
+    "vosotros/vosotras": "devinisteis",
+    "ellos/ellas/ustedes": "devinieron"
+  },
+  "diferir": {
+    "yo": "diferí",
+    "tú": "diferiste",
+    "él/ella/usted": "difirió",
+    "nosotros/nosotras": "diferimos",
+    "vosotros/vosotras": "diferisteis",
+    "ellos/ellas/ustedes": "difirieron"
+  },
+  "digerir": {
+    "yo": "digerí",
+    "tú": "digeriste",
+    "él/ella/usted": "digirió",
+    "nosotros/nosotras": "digerimos",
+    "vosotros/vosotras": "digeristeis",
+    "ellos/ellas/ustedes": "digirieron"
+  },
+  "disentir": {
+    "yo": "disentí",
+    "tú": "disentiste",
+    "él/ella/usted": "disintió",
+    "nosotros/nosotras": "disentimos",
+    "vosotros/vosotras": "disentisteis",
+    "ellos/ellas/ustedes": "disintieron"
+  },
+  "disponer": {
+    "yo": "dispuse",
+    "tú": "dispusiste",
+    "él/ella/usted": "dispuso",
+    "nosotros/nosotras": "dispusimos",
+    "vosotros/vosotras": "dispusisteis",
+    "ellos/ellas/ustedes": "dispusieron"
+  },
+  "disponerse": {
+    "yo": "me dispuse",
+    "tú": "te dispusiste",
+    "él/ella/usted": "se dispuso",
+    "nosotros/nosotras": "nos dispusimos",
+    "vosotros/vosotras": "os dispusisteis",
+    "ellos/ellas/ustedes": "se dispusieron"
+  },
+  "distraer": {
+    "yo": "distraje",
+    "tú": "distrajiste",
+    "él/ella/usted": "distrajo",
+    "nosotros/nosotras": "distrajimos",
+    "vosotros/vosotras": "distrajisteis",
+    "ellos/ellas/ustedes": "distrajeron"
+  },
+  "distraerse": {
+    "yo": "me distraje",
+    "tú": "te distrajiste",
+    "él/ella/usted": "se distrajo",
+    "nosotros/nosotras": "nos distrajimos",
+    "vosotros/vosotras": "os distrajisteis",
+    "ellos/ellas/ustedes": "se distrajeron"
+  },
+  "divertir": {
+    "yo": "divertí",
+    "tú": "divertiste",
+    "él/ella/usted": "divirtió",
+    "nosotros/nosotras": "divertimos",
+    "vosotros/vosotras": "divertisteis",
+    "ellos/ellas/ustedes": "divirtieron"
+  },
+  "divertirse": {
+    "yo": "me divertí",
+    "tú": "te divertiste",
+    "él/ella/usted": "se divirtió",
+    "nosotros/nosotras": "nos divertimos",
+    "vosotros/vosotras": "os divertisteis",
+    "ellos/ellas/ustedes": "se divirtieron"
+  },
+  "dormir": {
+    "yo": "dormí",
+    "tú": "dormiste",
+    "él/ella/usted": "durmió",
+    "nosotros/nosotras": "dormimos",
+    "vosotros/vosotras": "dormisteis",
+    "ellos/ellas/ustedes": "durmieron"
+  },
+  "dormirse": {
+    "yo": "me dormí",
+    "tú": "te dormiste",
+    "él/ella/usted": "se durmió",
+    "nosotros/nosotras": "nos dormimos",
+    "vosotros/vosotras": "os dormisteis",
+    "ellos/ellas/ustedes": "se durmieron"
+  },
+  "elegir": {
+    "yo": "elegí",
+    "tú": "elegiste",
+    "él/ella/usted": "eligió",
+    "nosotros/nosotras": "elegimos",
+    "vosotros/vosotras": "elegisteis",
+    "ellos/ellas/ustedes": "eligieron"
+  },
+  "embestir": {
+    "yo": "embestí",
+    "tú": "embestiste",
+    "él/ella/usted": "embistió",
+    "nosotros/nosotras": "embestimos",
+    "vosotros/vosotras": "embestisteis",
+    "ellos/ellas/ustedes": "embistieron"
+  },
+  "empezar": {
+    "yo": "empecé",
+    "tú": "empezaste",
+    "él/ella/usted": "empezó",
+    "nosotros/nosotras": "empezamos",
+    "vosotros/vosotras": "empezasteis",
+    "ellos/ellas/ustedes": "empezaron"
+  },
+  "enfatizar": {
+    "yo": "enfaticé",
+    "tú": "enfatizaste",
+    "él/ella/usted": "enfatizó",
+    "nosotros/nosotras": "enfatizamos",
+    "vosotros/vosotras": "enfatizasteis",
+    "ellos/ellas/ustedes": "enfatizaron"
+  },
+  "entretener": {
+    "yo": "entretuve",
+    "tú": "entretuviste",
+    "él/ella/usted": "entretuvo",
+    "nosotros/nosotras": "entretuvimos",
+    "vosotros/vosotras": "entretuvisteis",
+    "ellos/ellas/ustedes": "entretuvieron"
+  },
+  "entretenerse": {
+    "yo": "me entretuve",
+    "tú": "te entretuviste",
+    "él/ella/usted": "se entretuvo",
+    "nosotros/nosotras": "nos entretuvimos",
+    "vosotros/vosotras": "os entretuvisteis",
+    "ellos/ellas/ustedes": "se entretuvieron"
+  },
+  "erguir": {
+    "yo": "erguí",
+    "tú": "erguiste",
+    "él/ella/usted": "irguió",
+    "nosotros/nosotras": "erguimos",
+    "vosotros/vosotras": "erguisteis",
+    "ellos/ellas/ustedes": "irguieron"
+  },
+  "esforzar": {
+    "yo": "esforcé",
+    "tú": "esforzaste",
+    "él/ella/usted": "esforzó",
+    "nosotros/nosotras": "esforzamos",
+    "vosotros/vosotras": "esforzasteis",
+    "ellos/ellas/ustedes": "esforzaron"
+  },
+  "esforzarse": {
+    "yo": "me esforcé",
+    "tú": "te esforzaste",
+    "él/ella/usted": "se esforzó",
+    "nosotros/nosotras": "nos esforzamos",
+    "vosotros/vosotras": "os esforzasteis",
+    "ellos/ellas/ustedes": "se esforzaron"
+  },
+  "estar": {
+    "yo": "estuve",
+    "tú": "estuviste",
+    "él/ella/usted": "estuvo",
+    "nosotros/nosotras": "estuvimos",
+    "vosotros/vosotras": "estuvisteis",
+    "ellos/ellas/ustedes": "estuvieron"
+  },
+  "estreñir": {
+    "yo": "estreñí",
+    "tú": "estreñiste",
+    "él/ella/usted": "estriñó",
+    "nosotros/nosotras": "estreñimos",
+    "vosotros/vosotras": "estreñisteis",
+    "ellos/ellas/ustedes": "estriñeron"
+  },
+  "expedir": {
+    "yo": "expedí",
+    "tú": "expediste",
+    "él/ella/usted": "expidió",
+    "nosotros/nosotras": "expedimos",
+    "vosotros/vosotras": "expedisteis",
+    "ellos/ellas/ustedes": "expidieron"
+  },
+  "exponer": {
+    "yo": "expuse",
+    "tú": "expusiste",
+    "él/ella/usted": "expuso",
+    "nosotros/nosotras": "expusimos",
+    "vosotros/vosotras": "expusisteis",
+    "ellos/ellas/ustedes": "expusieron"
+  },
+  "extraer": {
+    "yo": "extraje",
+    "tú": "extrajiste",
+    "él/ella/usted": "extrajo",
+    "nosotros/nosotras": "extrajimos",
+    "vosotros/vosotras": "extrajisteis",
+    "ellos/ellas/ustedes": "extrajeron"
+  },
+  "forzar": {
+    "yo": "forcé",
+    "tú": "forzaste",
+    "él/ella/usted": "forzó",
+    "nosotros/nosotras": "forzamos",
+    "vosotros/vosotras": "forzasteis",
+    "ellos/ellas/ustedes": "forzaron"
+  },
+  "fregar": {
+    "yo": "fregué",
+    "tú": "fregaste",
+    "él/ella/usted": "fregó",
+    "nosotros/nosotras": "fregamos",
+    "vosotros/vosotras": "fregasteis",
+    "ellos/ellas/ustedes": "fregaron"
+  },
+  "freír": {
+    "yo": "freí",
+    "tú": "freíste",
+    "él/ella/usted": "frió",
+    "nosotros/nosotras": "freímos",
+    "vosotros/vosotras": "freísteis",
+    "ellos/ellas/ustedes": "frieron"
+  },
+  "gemir": {
+    "yo": "gemí",
+    "tú": "gemiste",
+    "él/ella/usted": "gimió",
+    "nosotros/nosotras": "gemimos",
+    "vosotros/vosotras": "gemisteis",
+    "ellos/ellas/ustedes": "gimieron"
+  },
+  "haber": {
+    "yo": "hube",
+    "tú": "hubiste",
+    "él/ella/usted": "hubo",
+    "nosotros/nosotras": "hubimos",
+    "vosotros/vosotras": "hubisteis",
+    "ellos/ellas/ustedes": "hubieron"
+  },
+  "hacer": {
+    "yo": "hice",
+    "tú": "hiciste",
+    "él/ella/usted": "hizo",
+    "nosotros/nosotras": "hicimos",
+    "vosotros/vosotras": "hicisteis",
+    "ellos/ellas/ustedes": "hicieron"
+  },
+  "hacerse": {
+    "yo": "me hice",
+    "tú": "te hiciste",
+    "él/ella/usted": "se hizo",
+    "nosotros/nosotras": "nos hicimos",
+    "vosotros/vosotras": "os hicisteis",
+    "ellos/ellas/ustedes": "se hicieron"
+  },
+  "henchir": {
+    "yo": "henché",
+    "tú": "henchiste",
+    "él/ella/usted": "hinchó",
+    "nosotros/nosotras": "henchimos",
+    "vosotros/vosotras": "henchisteis",
+    "ellos/ellas/ustedes": "hinchieron"
+  },
+  "herir": {
+    "yo": "herí",
+    "tú": "heriste",
+    "él/ella/usted": "hirió",
+    "nosotros/nosotras": "herimos",
+    "vosotros/vosotras": "heristeis",
+    "ellos/ellas/ustedes": "hirieron"
+  },
+  "hervir": {
+    "yo": "herví",
+    "tú": "herviste",
+    "él/ella/usted": "hirvió",
+    "nosotros/nosotras": "hervimos",
+    "vosotros/vosotras": "hervisteis",
+    "ellos/ellas/ustedes": "hirvieron"
+  },
+  "impedir": {
+    "yo": "impedí",
+    "tú": "impediste",
+    "él/ella/usted": "impidió",
+    "nosotros/nosotras": "impedimos",
+    "vosotros/vosotras": "impedisteis",
+    "ellos/ellas/ustedes": "impidieron"
+  },
+  "imponer": {
+    "yo": "impuse",
+    "tú": "impusiste",
+    "él/ella/usted": "impuso",
+    "nosotros/nosotras": "impusimos",
+    "vosotros/vosotras": "impusisteis",
+    "ellos/ellas/ustedes": "impusieron"
+  },
+  "inducir": {
+    "yo": "induje",
+    "tú": "indujiste",
+    "él/ella/usted": "indujo",
+    "nosotros/nosotras": "indujimos",
+    "vosotros/vosotras": "indujisteis",
+    "ellos/ellas/ustedes": "indujeron"
+  },
+  "inferir": {
+    "yo": "inferí",
+    "tú": "inferiste",
+    "él/ella/usted": "infirió",
+    "nosotros/nosotras": "inferimos",
+    "vosotros/vosotras": "inferisteis",
+    "ellos/ellas/ustedes": "infirieron"
+  },
+  "influir": {
+    "yo": "influí",
+    "tú": "influiste",
+    "él/ella/usted": "influyó",
+    "nosotros/nosotras": "influimos",
+    "vosotros/vosotras": "influisteis",
+    "ellos/ellas/ustedes": "influyeron"
+  },
+  "ingerir": {
+    "yo": "ingerí",
+    "tú": "ingeriste",
+    "él/ella/usted": "ingirió",
+    "nosotros/nosotras": "ingerimos",
+    "vosotros/vosotras": "ingeristeis",
+    "ellos/ellas/ustedes": "ingirieron"
+  },
+  "interferir": {
+    "yo": "interferí",
+    "tú": "interferiste",
+    "él/ella/usted": "interfirió",
+    "nosotros/nosotras": "interferimos",
+    "vosotros/vosotras": "interferisteis",
+    "ellos/ellas/ustedes": "interfirieron"
+  },
+  "interponer": {
+    "yo": "interpuse",
+    "tú": "interpusiste",
+    "él/ella/usted": "interpuso",
+    "nosotros/nosotras": "interpusimos",
+    "vosotros/vosotras": "interpusisteis",
+    "ellos/ellas/ustedes": "interpusieron"
+  },
+  "intervenir": {
+    "yo": "intervine",
+    "tú": "interviniste",
+    "él/ella/usted": "intervino",
+    "nosotros/nosotras": "intervinimos",
+    "vosotros/vosotras": "intervinisteis",
+    "ellos/ellas/ustedes": "intervinieron"
+  },
+  "introducir": {
+    "yo": "introduje",
+    "tú": "introdujiste",
+    "él/ella/usted": "introdujo",
+    "nosotros/nosotras": "introdujimos",
+    "vosotros/vosotras": "introdujisteis",
+    "ellos/ellas/ustedes": "introdujeron"
+  },
+  "invertir": {
+    "yo": "invertí",
+    "tú": "invertiste",
+    "él/ella/usted": "invirtió",
+    "nosotros/nosotras": "invertimos",
+    "vosotros/vosotras": "invertisteis",
+    "ellos/ellas/ustedes": "invirtieron"
+  },
+  "investir": {
+    "yo": "investí",
+    "tú": "investiste",
+    "él/ella/usted": "invistió",
+    "nosotros/nosotras": "investimos",
+    "vosotros/vosotras": "investisteis",
+    "ellos/ellas/ustedes": "invistieron"
+  },
+  "ir": {
+    "yo": "fui",
+    "tú": "fuiste",
+    "él/ella/usted": "fue",
+    "nosotros/nosotras": "fuimos",
+    "vosotros/vosotras": "fuisteis",
+    "ellos/ellas/ustedes": "fueron"
+  },
+  "irse": {
+    "yo": "me fui",
+    "tú": "te fuiste",
+    "él/ella/usted": "se fue",
+    "nosotros/nosotras": "nos fuimos",
+    "vosotros/vosotras": "os fuisteis",
+    "ellos/ellas/ustedes": "se fueron"
+  },
+  "jugar": {
+    "yo": "jugué",
+    "tú": "jugaste",
+    "él/ella/usted": "jugó",
+    "nosotros/nosotras": "jugamos",
+    "vosotros/vosotras": "jugasteis",
+    "ellos/ellas/ustedes": "jugaron"
+  },
+  "maldecir": {
+    "yo": "maldije",
+    "tú": "maldijiste",
+    "él/ella/usted": "maldijo",
+    "nosotros/nosotras": "maldijimos",
+    "vosotros/vosotras": "maldijisteis",
+    "ellos/ellas/ustedes": "maldijeron"
+  },
+  "malquerer": {
+    "yo": "malquise",
+    "tú": "malquisiste",
+    "él/ella/usted": "malquiso",
+    "nosotros/nosotras": "malquisimos",
+    "vosotros/vosotras": "malquisisteis",
+    "ellos/ellas/ustedes": "malquisieron"
+  },
+  "mantener": {
+    "yo": "mantuve",
+    "tú": "mantuviste",
+    "él/ella/usted": "mantuvo",
+    "nosotros/nosotras": "mantuvimos",
+    "vosotros/vosotras": "mantuvisteis",
+    "ellos/ellas/ustedes": "mantuvieron"
+  },
+  "mantenerse": {
+    "yo": "me mantuve",
+    "tú": "te mantuviste",
+    "él/ella/usted": "se mantuvo",
+    "nosotros/nosotras": "nos mantuvimos",
+    "vosotros/vosotras": "os mantuvisteis",
+    "ellos/ellas/ustedes": "se mantuvieron"
+  },
+  "medir": {
+    "yo": "medí",
+    "tú": "mediste",
+    "él/ella/usted": "midió",
+    "nosotros/nosotras": "medimos",
+    "vosotros/vosotras": "medisteis",
+    "ellos/ellas/ustedes": "midieron"
+  },
+  "mentir": {
+    "yo": "mentí",
+    "tú": "mentiste",
+    "él/ella/usted": "mintió",
+    "nosotros/nosotras": "mentimos",
+    "vosotros/vosotras": "mentisteis",
+    "ellos/ellas/ustedes": "mintieron"
+  },
+  "morir": {
+    "yo": "morí",
+    "tú": "moriste",
+    "él/ella/usted": "murió",
+    "nosotros/nosotras": "morimos",
+    "vosotros/vosotras": "moristeis",
+    "ellos/ellas/ustedes": "murieron"
+  },
+  "morirse": {
+    "yo": "me morí",
+    "tú": "te moriste",
+    "él/ella/usted": "se murió",
+    "nosotros/nosotras": "nos morimos",
+    "vosotros/vosotras": "os moristeis",
+    "ellos/ellas/ustedes": "se murieron"
+  },
+  "negar": {
+    "yo": "negué",
+    "tú": "negaste",
+    "él/ella/usted": "negó",
+    "nosotros/nosotras": "negamos",
+    "vosotros/vosotras": "negasteis",
+    "ellos/ellas/ustedes": "negaron"
+  },
+  "negarse": {
+    "yo": "me negué",
+    "tú": "te negaste",
+    "él/ella/usted": "se negó",
+    "nosotros/nosotras": "nos negamos",
+    "vosotros/vosotras": "os negasteis",
+    "ellos/ellas/ustedes": "se negaron"
+  },
+  "obtener": {
+    "yo": "obtuve",
+    "tú": "obtuviste",
+    "él/ella/usted": "obtuvo",
+    "nosotros/nosotras": "obtuvimos",
+    "vosotros/vosotras": "obtuvisteis",
+    "ellos/ellas/ustedes": "obtuvieron"
+  },
+  "oír": {
+    "yo": "oí",
+    "tú": "oíste",
+    "él/ella/usted": "oyó",
+    "nosotros/nosotras": "oímos",
+    "vosotros/vosotras": "oísteis",
+    "ellos/ellas/ustedes": "oyeron"
+  },
+  "oponer": {
+    "yo": "opuse",
+    "tú": "opusiste",
+    "él/ella/usted": "opuso",
+    "nosotros/nosotras": "opusimos",
+    "vosotros/vosotras": "opusisteis",
+    "ellos/ellas/ustedes": "opusieron"
+  },
+  "oponerse": {
+    "yo": "me opuse",
+    "tú": "te opusiste",
+    "él/ella/usted": "se opuso",
+    "nosotros/nosotras": "nos opusimos",
+    "vosotros/vosotras": "os opusisteis",
+    "ellos/ellas/ustedes": "se opusieron"
+  },
+  "pedir": {
+    "yo": "pedí",
+    "tú": "pediste",
+    "él/ella/usted": "pidió",
+    "nosotros/nosotras": "pedimos",
+    "vosotros/vosotras": "pedisteis",
+    "ellos/ellas/ustedes": "pidieron"
+  },
+  "perseguir": {
+    "yo": "perseguí",
+    "tú": "perseguiste",
+    "él/ella/usted": "persiguió",
+    "nosotros/nosotras": "perseguimos",
+    "vosotros/vosotras": "perseguisteis",
+    "ellos/ellas/ustedes": "persiguieron"
+  },
+  "pervertir": {
+    "yo": "pervertí",
+    "tú": "pervertiste",
+    "él/ella/usted": "pervirtió",
+    "nosotros/nosotras": "pervertimos",
+    "vosotros/vosotras": "pervertisteis",
+    "ellos/ellas/ustedes": "pervirtieron"
+  },
+  "plegar": {
+    "yo": "plegué",
+    "tú": "plegaste",
+    "él/ella/usted": "plegó",
+    "nosotros/nosotras": "plegamos",
+    "vosotros/vosotras": "plegasteis",
+    "ellos/ellas/ustedes": "plegaron"
+  },
+  "poder": {
+    "yo": "pude",
+    "tú": "pudiste",
+    "él/ella/usted": "pudo",
+    "nosotros/nosotras": "pudimos",
+    "vosotros/vosotras": "pudisteis",
+    "ellos/ellas/ustedes": "pudieron"
+  },
+  "poner": {
+    "yo": "puse",
+    "tú": "pusiste",
+    "él/ella/usted": "puso",
+    "nosotros/nosotras": "pusimos",
+    "vosotros/vosotras": "pusisteis",
+    "ellos/ellas/ustedes": "pusieron"
+  },
+  "ponerse": {
+    "yo": "me puse",
+    "tú": "te pusiste",
+    "él/ella/usted": "se puso",
+    "nosotros/nosotras": "nos pusimos",
+    "vosotros/vosotras": "os pusisteis",
+    "ellos/ellas/ustedes": "se pusieron"
+  },
+  "posponer": {
+    "yo": "pospuse",
+    "tú": "pospusiste",
+    "él/ella/usted": "pospuso",
+    "nosotros/nosotras": "pospusimos",
+    "vosotros/vosotras": "pospusisteis",
+    "ellos/ellas/ustedes": "pospusieron"
+  },
+  "predecir": {
+    "yo": "predije",
+    "tú": "predijiste",
+    "él/ella/usted": "predijo",
+    "nosotros/nosotras": "predijimos",
+    "vosotros/vosotras": "predijisteis",
+    "ellos/ellas/ustedes": "predijeron"
+  },
+  "predisponer": {
+    "yo": "predispuse",
+    "tú": "predispusiste",
+    "él/ella/usted": "predispuso",
+    "nosotros/nosotras": "predispusimos",
+    "vosotros/vosotras": "predispusisteis",
+    "ellos/ellas/ustedes": "predispusieron"
+  },
+  "preferir": {
+    "yo": "preferí",
+    "tú": "preferiste",
+    "él/ella/usted": "prefirió",
+    "nosotros/nosotras": "preferimos",
+    "vosotros/vosotras": "preferisteis",
+    "ellos/ellas/ustedes": "prefirieron"
+  },
+  "presentir": {
+    "yo": "presentí",
+    "tú": "presentiste",
+    "él/ella/usted": "presintió",
+    "nosotros/nosotras": "presentimos",
+    "vosotros/vosotras": "presentisteis",
+    "ellos/ellas/ustedes": "presintieron"
+  },
+  "presuponer": {
+    "yo": "presupuse",
+    "tú": "presupusiste",
+    "él/ella/usted": "presupuso",
+    "nosotros/nosotras": "presupusimos",
+    "vosotros/vosotras": "presupusisteis",
+    "ellos/ellas/ustedes": "presupusieron"
+  },
+  "prevenir": {
+    "yo": "previne",
+    "tú": "previniste",
+    "él/ella/usted": "previno",
+    "nosotros/nosotras": "previnimos",
+    "vosotros/vosotras": "previnisteis",
+    "ellos/ellas/ustedes": "previnieron"
+  },
+  "producir": {
+    "yo": "produje",
+    "tú": "produjiste",
+    "él/ella/usted": "produjo",
+    "nosotros/nosotras": "produjimos",
+    "vosotros/vosotras": "produjisteis",
+    "ellos/ellas/ustedes": "produjeron"
+  },
+  "proferir": {
+    "yo": "proferí",
+    "tú": "proferiste",
+    "él/ella/usted": "profirió",
+    "nosotros/nosotras": "proferimos",
+    "vosotros/vosotras": "proferisteis",
+    "ellos/ellas/ustedes": "profirieron"
+  },
+  "proponer": {
+    "yo": "propuse",
+    "tú": "propusiste",
+    "él/ella/usted": "propuso",
+    "nosotros/nosotras": "propusimos",
+    "vosotros/vosotras": "propusisteis",
+    "ellos/ellas/ustedes": "propusieron"
+  },
+  "proponerse": {
+    "yo": "me propuse",
+    "tú": "te propusiste",
+    "él/ella/usted": "se propuso",
+    "nosotros/nosotras": "nos propusimos",
+    "vosotros/vosotras": "os propusisteis",
+    "ellos/ellas/ustedes": "se propusieron"
+  },
+  "proseguir": {
+    "yo": "proseguí",
+    "tú": "proseguiste",
+    "él/ella/usted": "prosiguió",
+    "nosotros/nosotras": "proseguimos",
+    "vosotros/vosotras": "proseguisteis",
+    "ellos/ellas/ustedes": "prosiguieron"
+  },
+  "provenir": {
+    "yo": "provine",
+    "tú": "proviniste",
+    "él/ella/usted": "provino",
+    "nosotros/nosotras": "provinimos",
+    "vosotros/vosotras": "provinisteis",
+    "ellos/ellas/ustedes": "provinieron"
+  },
+  "querer": {
+    "yo": "quise",
+    "tú": "quisiste",
+    "él/ella/usted": "quiso",
+    "nosotros/nosotras": "quisimos",
+    "vosotros/vosotras": "quisisteis",
+    "ellos/ellas/ustedes": "quisieron"
+  },
+  "raer": {
+    "yo": "raí",
+    "tú": "raíste",
+    "él/ella/usted": "rayó",
+    "nosotros/nosotras": "raímos",
+    "vosotros/vosotras": "raísteis",
+    "ellos/ellas/ustedes": "rayeron"
+  },
+  "recaer": {
+    "yo": "recaí",
+    "tú": "recaíste",
+    "él/ella/usted": "recayó",
+    "nosotros/nosotras": "recaímos",
+    "vosotros/vosotras": "recaísteis",
+    "ellos/ellas/ustedes": "recayeron"
+  },
+  "recomenzar": {
+    "yo": "recomencé",
+    "tú": "recomenzaste",
+    "él/ella/usted": "recomenzó",
+    "nosotros/nosotras": "recomenzamos",
+    "vosotros/vosotras": "recomenzasteis",
+    "ellos/ellas/ustedes": "recomenzaron"
+  },
+  "recomponer": {
+    "yo": "recompuse",
+    "tú": "recompusiste",
+    "él/ella/usted": "recompuso",
+    "nosotros/nosotras": "recompusimos",
+    "vosotros/vosotras": "recompusisteis",
+    "ellos/ellas/ustedes": "recompusieron"
+  },
+  "reconducir": {
+    "yo": "reconduje",
+    "tú": "recondujiste",
+    "él/ella/usted": "recondujo",
+    "nosotros/nosotras": "recondujimos",
+    "vosotros/vosotras": "recondujisteis",
+    "ellos/ellas/ustedes": "recondujeron"
+  },
+  "reducir": {
+    "yo": "reduje",
+    "tú": "redujiste",
+    "él/ella/usted": "redujo",
+    "nosotros/nosotras": "redujimos",
+    "vosotros/vosotras": "redujisteis",
+    "ellos/ellas/ustedes": "redujeron"
+  },
+  "referir": {
+    "yo": "referí",
+    "tú": "referiste",
+    "él/ella/usted": "refirió",
+    "nosotros/nosotras": "referimos",
+    "vosotros/vosotras": "referisteis",
+    "ellos/ellas/ustedes": "refirieron"
+  },
+  "referirse": {
+    "yo": "me referí",
+    "tú": "te referiste",
+    "él/ella/usted": "se refirió",
+    "nosotros/nosotras": "nos referimos",
+    "vosotros/vosotras": "os referisteis",
+    "ellos/ellas/ustedes": "se refirieron"
+  },
+  "reforzar": {
+    "yo": "reforcé",
+    "tú": "reforzaste",
+    "él/ella/usted": "reforzó",
+    "nosotros/nosotras": "reforzamos",
+    "vosotros/vosotras": "reforzasteis",
+    "ellos/ellas/ustedes": "reforzaron"
+  },
+  "regar": {
+    "yo": "regué",
+    "tú": "regaste",
+    "él/ella/usted": "regó",
+    "nosotros/nosotras": "regamos",
+    "vosotros/vosotras": "regasteis",
+    "ellos/ellas/ustedes": "regaron"
+  },
+  "regir": {
+    "yo": "regí",
+    "tú": "registe",
+    "él/ella/usted": "rigió",
+    "nosotros/nosotras": "regimos",
+    "vosotros/vosotras": "registeis",
+    "ellos/ellas/ustedes": "rigieron"
+  },
+  "rehacer": {
+    "yo": "rehice",
+    "tú": "rehiciste",
+    "él/ella/usted": "rehizo",
+    "nosotros/nosotras": "rehicimos",
+    "vosotros/vosotras": "rehicisteis",
+    "ellos/ellas/ustedes": "rehicieron"
+  },
+  "reír": {
+    "yo": "reí",
+    "tú": "reíste",
+    "él/ella/usted": "rió",
+    "nosotros/nosotras": "reímos",
+    "vosotros/vosotras": "reísteis",
+    "ellos/ellas/ustedes": "rieron"
+  },
+  "reírse": {
+    "yo": "me reí",
+    "tú": "te reíste",
+    "él/ella/usted": "se rió",
+    "nosotros/nosotras": "nos reímos",
+    "vosotros/vosotras": "os reísteis",
+    "ellos/ellas/ustedes": "se rieron"
+  },
+  "rendir": {
+    "yo": "rendí",
+    "tú": "rendiste",
+    "él/ella/usted": "rindió",
+    "nosotros/nosotras": "rendimos",
+    "vosotros/vosotras": "rendisteis",
+    "ellos/ellas/ustedes": "rindieron"
+  },
+  "rendirse": {
+    "yo": "me rendí",
+    "tú": "te rendiste",
+    "él/ella/usted": "se rindió",
+    "nosotros/nosotras": "nos rendimos",
+    "vosotros/vosotras": "os rendisteis",
+    "ellos/ellas/ustedes": "se rindieron"
+  },
+  "reñir": {
+    "yo": "reñí",
+    "tú": "reñiste",
+    "él/ella/usted": "riñó",
+    "nosotros/nosotras": "reñimos",
+    "vosotros/vosotras": "reñisteis",
+    "ellos/ellas/ustedes": "riñeron"
+  },
+  "repetir": {
+    "yo": "repetí",
+    "tú": "repetiste",
+    "él/ella/usted": "repitió",
+    "nosotros/nosotras": "repetimos",
+    "vosotros/vosotras": "repetisteis",
+    "ellos/ellas/ustedes": "repitieron"
+  },
+  "reponer": {
+    "yo": "repuse",
+    "tú": "repusiste",
+    "él/ella/usted": "repuso",
+    "nosotros/nosotras": "repusimos",
+    "vosotros/vosotras": "repusisteis",
+    "ellos/ellas/ustedes": "repusieron"
+  },
+  "reproducir": {
+    "yo": "reproduje",
+    "tú": "reprodujiste",
+    "él/ella/usted": "reprodujo",
+    "nosotros/nosotras": "reprodujimos",
+    "vosotros/vosotras": "reprodujisteis",
+    "ellos/ellas/ustedes": "reprodujeron"
+  },
+  "requerir": {
+    "yo": "requerí",
+    "tú": "requeriste",
+    "él/ella/usted": "requirió",
+    "nosotros/nosotras": "requerimos",
+    "vosotros/vosotras": "requeristeis",
+    "ellos/ellas/ustedes": "requirieron"
+  },
+  "retener": {
+    "yo": "retuve",
+    "tú": "retuviste",
+    "él/ella/usted": "retuvo",
+    "nosotros/nosotras": "retuvimos",
+    "vosotros/vosotras": "retuvisteis",
+    "ellos/ellas/ustedes": "retuvieron"
+  },
+  "revestir": {
+    "yo": "revestí",
+    "tú": "revestiste",
+    "él/ella/usted": "revistió",
+    "nosotros/nosotras": "revestimos",
+    "vosotros/vosotras": "revestisteis",
+    "ellos/ellas/ustedes": "revistieron"
+  },
+  "roer": {
+    "yo": "roí",
+    "tú": "roíste",
+    "él/ella/usted": "royó",
+    "nosotros/nosotras": "roímos",
+    "vosotros/vosotras": "roísteis",
+    "ellos/ellas/ustedes": "royeron"
+  },
+  "rogar": {
+    "yo": "rogué",
+    "tú": "rogaste",
+    "él/ella/usted": "rogó",
+    "nosotros/nosotras": "rogamos",
+    "vosotros/vosotras": "rogasteis",
+    "ellos/ellas/ustedes": "rogaron"
+  },
+  "saber": {
+    "yo": "supe",
+    "tú": "supiste",
+    "él/ella/usted": "supo",
+    "nosotros/nosotras": "supimos",
+    "vosotros/vosotras": "supisteis",
+    "ellos/ellas/ustedes": "supieron"
+  },
+  "satisfacer": {
+    "yo": "satisfice",
+    "tú": "satisficiste",
+    "él/ella/usted": "satisfizo",
+    "nosotros/nosotras": "satisficimos",
+    "vosotros/vosotras": "satisficisteis",
+    "ellos/ellas/ustedes": "satisficieron"
+  },
+  "seducir": {
+    "yo": "seduje",
+    "tú": "sedujiste",
+    "él/ella/usted": "sedujo",
+    "nosotros/nosotras": "sedujimos",
+    "vosotros/vosotras": "sedujisteis",
+    "ellos/ellas/ustedes": "sedujeron"
+  },
+  "seguir": {
+    "yo": "seguí",
+    "tú": "seguiste",
+    "él/ella/usted": "siguió",
+    "nosotros/nosotras": "seguimos",
+    "vosotros/vosotras": "seguisteis",
+    "ellos/ellas/ustedes": "siguieron"
+  },
+  "sentir": {
+    "yo": "sentí",
+    "tú": "sentiste",
+    "él/ella/usted": "sintió",
+    "nosotros/nosotras": "sentimos",
+    "vosotros/vosotras": "sentisteis",
+    "ellos/ellas/ustedes": "sintieron"
+  },
+  "sentirse": {
+    "yo": "me sentí",
+    "tú": "te sentiste",
+    "él/ella/usted": "se sintió",
+    "nosotros/nosotras": "nos sentimos",
+    "vosotros/vosotras": "os sentisteis",
+    "ellos/ellas/ustedes": "se sintieron"
+  },
+  "ser": {
+    "yo": "fui",
+    "tú": "fuiste",
+    "él/ella/usted": "fue",
+    "nosotros/nosotras": "fuimos",
+    "vosotros/vosotras": "fuisteis",
+    "ellos/ellas/ustedes": "fueron"
+  },
+  "servir": {
+    "yo": "serví",
+    "tú": "serviste",
+    "él/ella/usted": "sirvió",
+    "nosotros/nosotras": "servimos",
+    "vosotros/vosotras": "servisteis",
+    "ellos/ellas/ustedes": "sirvieron"
+  },
+  "sofreír": {
+    "yo": "sofreí",
+    "tú": "sofreíste",
+    "él/ella/usted": "sofrió",
+    "nosotros/nosotras": "sofreímos",
+    "vosotros/vosotras": "sofreísteis",
+    "ellos/ellas/ustedes": "sofrieron"
+  },
+  "sonreír": {
+    "yo": "sonreí",
+    "tú": "sonreíste",
+    "él/ella/usted": "sonrió",
+    "nosotros/nosotras": "sonreímos",
+    "vosotros/vosotras": "sonreísteis",
+    "ellos/ellas/ustedes": "sonrieron"
+  },
+  "sosegar": {
+    "yo": "sosegué",
+    "tú": "sosegaste",
+    "él/ella/usted": "sosegó",
+    "nosotros/nosotras": "sosegamos",
+    "vosotros/vosotras": "sosegasteis",
+    "ellos/ellas/ustedes": "sosegaron"
+  },
+  "sostener": {
+    "yo": "sostuve",
+    "tú": "sostuviste",
+    "él/ella/usted": "sostuvo",
+    "nosotros/nosotras": "sostuvimos",
+    "vosotros/vosotras": "sostuvisteis",
+    "ellos/ellas/ustedes": "sostuvieron"
+  },
+  "sugerir": {
+    "yo": "sugerí",
+    "tú": "sugeriste",
+    "él/ella/usted": "sugirió",
+    "nosotros/nosotras": "sugerimos",
+    "vosotros/vosotras": "sugeristeis",
+    "ellos/ellas/ustedes": "sugirieron"
+  },
+  "suponer": {
+    "yo": "supuse",
+    "tú": "supusiste",
+    "él/ella/usted": "supuso",
+    "nosotros/nosotras": "supusimos",
+    "vosotros/vosotras": "supusisteis",
+    "ellos/ellas/ustedes": "supusieron"
+  },
+  "sustraer": {
+    "yo": "sustraje",
+    "tú": "sustrajiste",
+    "él/ella/usted": "sustrajo",
+    "nosotros/nosotras": "sustrajimos",
+    "vosotros/vosotras": "sustrajisteis",
+    "ellos/ellas/ustedes": "sustrajeron"
+  },
+  "tener": {
+    "yo": "tuve",
+    "tú": "tuviste",
+    "él/ella/usted": "tuvo",
+    "nosotros/nosotras": "tuvimos",
+    "vosotros/vosotras": "tuvisteis",
+    "ellos/ellas/ustedes": "tuvieron"
+  },
+  "teñir": {
+    "yo": "teñí",
+    "tú": "teñiste",
+    "él/ella/usted": "tiñó",
+    "nosotros/nosotras": "teñimos",
+    "vosotros/vosotras": "teñisteis",
+    "ellos/ellas/ustedes": "tiñeron"
+  },
+  "traducir": {
+    "yo": "traduje",
+    "tú": "tradujiste",
+    "él/ella/usted": "tradujo",
+    "nosotros/nosotras": "tradujimos",
+    "vosotros/vosotras": "tradujisteis",
+    "ellos/ellas/ustedes": "tradujeron"
+  },
+  "traer": {
+    "yo": "traje",
+    "tú": "trajiste",
+    "él/ella/usted": "trajo",
+    "nosotros/nosotras": "trajimos",
+    "vosotros/vosotras": "trajisteis",
+    "ellos/ellas/ustedes": "trajeron"
+  },
+  "transferir": {
+    "yo": "transferí",
+    "tú": "transferiste",
+    "él/ella/usted": "transfirió",
+    "nosotros/nosotras": "transferimos",
+    "vosotros/vosotras": "transferisteis",
+    "ellos/ellas/ustedes": "transfirieron"
+  },
+  "tropezar": {
+    "yo": "tropecé",
+    "tú": "tropezaste",
+    "él/ella/usted": "tropezó",
+    "nosotros/nosotras": "tropezamos",
+    "vosotros/vosotras": "tropezasteis",
+    "ellos/ellas/ustedes": "tropezaron"
+  },
+  "venir": {
+    "yo": "vine",
+    "tú": "viniste",
+    "él/ella/usted": "vino",
+    "nosotros/nosotras": "vinimos",
+    "vosotros/vosotras": "vinisteis",
+    "ellos/ellas/ustedes": "vinieron"
+  },
+  "ver": {
+    "yo": "vi",
+    "tú": "viste",
+    "él/ella/usted": "vio",
+    "nosotros/nosotras": "vimos",
+    "vosotros/vosotras": "visteis",
+    "ellos/ellas/ustedes": "vieron"
+  },
+  "vestir": {
+    "yo": "vestí",
+    "tú": "vestiste",
+    "él/ella/usted": "vistió",
+    "nosotros/nosotras": "vestimos",
+    "vosotros/vosotras": "vestisteis",
+    "ellos/ellas/ustedes": "vistieron"
+  },
+  "vestirse": {
+    "yo": "me vestí",
+    "tú": "te vestiste",
+    "él/ella/usted": "se vistió",
+    "nosotros/nosotras": "nos vestimos",
+    "vosotros/vosotras": "os vestisteis",
+    "ellos/ellas/ustedes": "se vistieron"
+  },
+  "volcar": {
+    "yo": "volqué",
+    "tú": "volcaste",
+    "él/ella/usted": "volcó",
+    "nosotros/nosotras": "volcamos",
+    "vosotros/vosotras": "volcasteis",
+    "ellos/ellas/ustedes": "volcaron"
+  },
+  "yuxtaponer": {
+    "yo": "yuxtapuse",
+    "tú": "yuxtapusiste",
+    "él/ella/usted": "yuxtapuso",
+    "nosotros/nosotras": "yuxtapusimos",
+    "vosotros/vosotras": "yuxtapusisteis",
+    "ellos/ellas/ustedes": "yuxtapusieron"
+  }
+}

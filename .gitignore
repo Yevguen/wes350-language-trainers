@@ -1,0 +1,71 @@
+# --- Python bytecode / caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- C extensions ---
+*.so
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+.venv*/
+# dotenv files (keep a template only)
+.env
+.env.*
+!.env.example
+
+# --- Packaging / build artifacts ---
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# --- Testing / typecheck / coverage caches ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.pyre/
+
+# --- Logs ---
+*.log
+logs/
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# --- Local databases / dumps (dev only) ---
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.sql
+
+# --- PEP 582 local packages ---
+__pypackages__/
+
+# --- Project-specific helper scripts (keep out of repo) ---
+inspect_user.py
+insert_admin_user.py
+
+# --- Certificates / private keys ---
+*.pem
+
+# --- Alembic ---
+# NOTE: keep alembic.ini and alembic/versions in the repo!
+# (no ignore rules here on purpose)

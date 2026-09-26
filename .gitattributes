@@ -1,0 +1,15 @@
+# Auto normalize line endings
+* text=auto
+
+# Explicitly declare text files
+*.py text
+*.md text
+*.yml text
+*.bat text
+*.sh text
+
+# Declare binary files
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary

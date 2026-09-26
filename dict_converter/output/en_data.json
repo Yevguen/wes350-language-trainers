@@ -1,0 +1,802 @@
+{
+  "abide": {
+    "Past Indefinite": "abode",
+    "Past Participle": "abidden"
+  },
+  "arise": {
+    "Past Indefinite": "arose",
+    "Past Participle": "arisen"
+  },
+  "awake": {
+    "Past Indefinite": "awoke",
+    "Past Participle": "awoken"
+  },
+  "backslide": {
+    "Past Indefinite": "backslid",
+    "Past Participle": "backslid/backslidden"
+  },
+  "be": {
+    "Past Indefinite": "was/were",
+    "Past Participle": "been"
+  },
+  "bear": {
+    "Past Indefinite": "bore",
+    "Past Participle": "borne/born"
+  },
+  "beat": {
+    "Past Indefinite": "beat",
+    "Past Participle": "beaten"
+  },
+  "become": {
+    "Past Indefinite": "became",
+    "Past Participle": "become"
+  },
+  "begin": {
+    "Past Indefinite": "began",
+    "Past Participle": "begun"
+  },
+  "bend": {
+    "Past Indefinite": "bent",
+    "Past Participle": "bent"
+  },
+  "bet": {
+    "Past Indefinite": "bet",
+    "Past Participle": "bet"
+  },
+  "bid": {
+    "Past Indefinite": "bid/bade",
+    "Past Participle": "bid/bidden"
+  },
+  "bind": {
+    "Past Indefinite": "bound",
+    "Past Participle": "bound"
+  },
+  "bite": {
+    "Past Indefinite": "bit",
+    "Past Participle": "bitten"
+  },
+  "bleed": {
+    "Past Indefinite": "bled",
+    "Past Participle": "bled"
+  },
+  "blow": {
+    "Past Indefinite": "blew",
+    "Past Participle": "blown"
+  },
+  "break": {
+    "Past Indefinite": "broke",
+    "Past Participle": "broken"
+  },
+  "breed": {
+    "Past Indefinite": "bred",
+    "Past Participle": "bred"
+  },
+  "bring": {
+    "Past Indefinite": "brought",
+    "Past Participle": "brought"
+  },
+  "broadcast": {
+    "Past Indefinite": "broadcast",
+    "Past Participle": "broadcast"
+  },
+  "build": {
+    "Past Indefinite": "built",
+    "Past Participle": "built"
+  },
+  "burn": {
+    "Past Indefinite": "burnt/burned",
+    "Past Participle": "burnt/burned"
+  },
+  "burst": {
+    "Past Indefinite": "burst",
+    "Past Participle": "burst"
+  },
+  "bust": {
+    "Past Indefinite": "bust/busted",
+    "Past Participle": "bust/busted"
+  },
+  "buy": {
+    "Past Indefinite": "bought",
+    "Past Participle": "bought"
+  },
+  "cast": {
+    "Past Indefinite": "cast",
+    "Past Participle": "cast"
+  },
+  "catch": {
+    "Past Indefinite": "caught",
+    "Past Participle": "caught"
+  },
+  "choose": {
+    "Past Indefinite": "chose",
+    "Past Participle": "chosen"
+  },
+  "cling": {
+    "Past Indefinite": "clung",
+    "Past Participle": "clung"
+  },
+  "come": {
+    "Past Indefinite": "came",
+    "Past Participle": "come"
+  },
+  "cost": {
+    "Past Indefinite": "cost",
+    "Past Participle": "cost"
+  },
+  "creep": {
+    "Past Indefinite": "crept",
+    "Past Participle": "crept"
+  },
+  "cut": {
+    "Past Indefinite": "cut",
+    "Past Participle": "cut"
+  },
+  "deal": {
+    "Past Indefinite": "dealt",
+    "Past Participle": "dealt"
+  },
+  "dig": {
+    "Past Indefinite": "dug",
+    "Past Participle": "dug"
+  },
+  "disprove": {
+    "Past Indefinite": "disproved",
+    "Past Participle": "disproved/disproven"
+  },
+  "dive": {
+    "Past Indefinite": "dived/dove",
+    "Past Participle": "dived"
+  },
+  "do": {
+    "Past Indefinite": "did",
+    "Past Participle": "done"
+  },
+  "draw": {
+    "Past Indefinite": "drew",
+    "Past Participle": "drawn"
+  },
+  "dream": {
+    "Past Indefinite": "dreamt/dreamed",
+    "Past Participle": "dreamt/dreamed"
+  },
+  "drink": {
+    "Past Indefinite": "drank",
+    "Past Participle": "drunk"
+  },
+  "drive": {
+    "Past Indefinite": "drove",
+    "Past Participle": "driven"
+  },
+  "dwell": {
+    "Past Indefinite": "dwelt/dwelled",
+    "Past Participle": "dwelt/dwelled"
+  },
+  "eat": {
+    "Past Indefinite": "ate",
+    "Past Participle": "eaten"
+  },
+  "fall": {
+    "Past Indefinite": "fell",
+    "Past Participle": "fallen"
+  },
+  "feed": {
+    "Past Indefinite": "fed",
+    "Past Participle": "fed"
+  },
+  "feel": {
+    "Past Indefinite": "felt",
+    "Past Participle": "felt"
+  },
+  "fight": {
+    "Past Indefinite": "fought",
+    "Past Participle": "fought"
+  },
+  "find": {
+    "Past Indefinite": "found",
+    "Past Participle": "found"
+  },
+  "fit": {
+    "Past Indefinite": "fit/fitted",
+    "Past Participle": "fit/fitted"
+  },
+  "flee": {
+    "Past Indefinite": "fled",
+    "Past Participle": "fled"
+  },
+  "fling": {
+    "Past Indefinite": "flung",
+    "Past Participle": "flung"
+  },
+  "fly": {
+    "Past Indefinite": "flew",
+    "Past Participle": "flown"
+  },
+  "forbid": {
+    "Past Indefinite": "forbade/forbad",
+    "Past Participle": "forbidden"
+  },
+  "forget": {
+    "Past Indefinite": "forgot",
+    "Past Participle": "forgotten"
+  },
+  "forgive": {
+    "Past Indefinite": "forgave",
+    "Past Participle": "forgiven"
+  },
+  "forsake": {
+    "Past Indefinite": "forsook",
+    "Past Participle": "forsaken"
+  },
+  "freeze": {
+    "Past Indefinite": "froze",
+    "Past Participle": "frozen"
+  },
+  "get": {
+    "Past Indefinite": "got",
+    "Past Participle": "got/gotten"
+  },
+  "give": {
+    "Past Indefinite": "gave",
+    "Past Participle": "given"
+  },
+  "go": {
+    "Past Indefinite": "went",
+    "Past Participle": "gone"
+  },
+  "grind": {
+    "Past Indefinite": "ground",
+    "Past Participle": "ground"
+  },
+  "grow": {
+    "Past Indefinite": "grew",
+    "Past Participle": "grown"
+  },
+  "hang": {
+    "Past Indefinite": "hung/hanged",
+    "Past Participle": "hung/hanged"
+  },
+  "have": {
+    "Past Indefinite": "had",
+    "Past Participle": "had"
+  },
+  "hear": {
+    "Past Indefinite": "heard",
+    "Past Participle": "heard"
+  },
+  "hew": {
+    "Past Indefinite": "hewed",
+    "Past Participle": "hewn/hewed"
+  },
+  "hide": {
+    "Past Indefinite": "hid",
+    "Past Participle": "hidden"
+  },
+  "hit": {
+    "Past Indefinite": "hit",
+    "Past Participle": "hit"
+  },
+  "hold": {
+    "Past Indefinite": "held",
+    "Past Participle": "held"
+  },
+  "hurt": {
+    "Past Indefinite": "hurt",
+    "Past Participle": "hurt"
+  },
+  "input": {
+    "Past Indefinite": "input/inputted",
+    "Past Participle": "input/inputted"
+  },
+  "keep": {
+    "Past Indefinite": "kept",
+    "Past Participle": "kept"
+  },
+  "kneel": {
+    "Past Indefinite": "knelt/kneeled",
+    "Past Participle": "knelt/kneeled"
+  },
+  "knit": {
+    "Past Indefinite": "knit/knitted",
+    "Past Participle": "knit/knitted"
+  },
+  "know": {
+    "Past Indefinite": "knew",
+    "Past Participle": "known"
+  },
+  "lay": {
+    "Past Indefinite": "laid",
+    "Past Participle": "laid"
+  },
+  "lead": {
+    "Past Indefinite": "led",
+    "Past Participle": "led"
+  },
+  "lean": {
+    "Past Indefinite": "leant/leaned",
+    "Past Participle": "leant/leaned"
+  },
+  "leap": {
+    "Past Indefinite": "leapt/leaped",
+    "Past Participle": "leapt/leaped"
+  },
+  "learn": {
+    "Past Indefinite": "learnt/learned",
+    "Past Participle": "learnt/learned"
+  },
+  "leave": {
+    "Past Indefinite": "left",
+    "Past Participle": "left"
+  },
+  "lend": {
+    "Past Indefinite": "lent",
+    "Past Participle": "lent"
+  },
+  "let": {
+    "Past Indefinite": "let",
+    "Past Participle": "let"
+  },
+  "lie": {
+    "Past Indefinite": "lay",
+    "Past Participle": "lain"
+  },
+  "light": {
+    "Past Indefinite": "lit/lighted",
+    "Past Participle": "lit/lighted"
+  },
+  "lose": {
+    "Past Indefinite": "lost",
+    "Past Participle": "lost"
+  },
+  "make": {
+    "Past Indefinite": "made",
+    "Past Participle": "made"
+  },
+  "mean": {
+    "Past Indefinite": "meant",
+    "Past Participle": "meant"
+  },
+  "meet": {
+    "Past Indefinite": "met",
+    "Past Participle": "met"
+  },
+  "mistake": {
+    "Past Indefinite": "mistook",
+    "Past Participle": "mistaken"
+  },
+  "misunderstand": {
+    "Past Indefinite": "misunderstood",
+    "Past Participle": "misunderstood"
+  },
+  "offset": {
+    "Past Indefinite": "offset",
+    "Past Participle": "offset"
+  },
+  "overdo": {
+    "Past Indefinite": "overdid",
+    "Past Participle": "overdone"
+  },
+  "partake": {
+    "Past Indefinite": "partook",
+    "Past Participle": "partaken"
+  },
+  "pay": {
+    "Past Indefinite": "paid",
+    "Past Participle": "paid"
+  },
+  "plead": {
+    "Past Indefinite": "pled/pleaded",
+    "Past Participle": "pled/pleaded"
+  },
+  "prove": {
+    "Past Indefinite": "proved",
+    "Past Participle": "proved/proven"
+  },
+  "put": {
+    "Past Indefinite": "put",
+    "Past Participle": "put"
+  },
+  "quit": {
+    "Past Indefinite": "quit/quitted",
+    "Past Participle": "quit/quitted"
+  },
+  "read": {
+    "Past Indefinite": "read",
+    "Past Participle": "read"
+  },
+  "recast": {
+    "Past Indefinite": "recast",
+    "Past Participle": "recast"
+  },
+  "relay": {
+    "Past Indefinite": "relaid",
+    "Past Participle": "relaid"
+  },
+  "rend": {
+    "Past Indefinite": "rent",
+    "Past Participle": "rent"
+  },
+  "reset": {
+    "Past Indefinite": "reset",
+    "Past Participle": "reset"
+  },
+  "retell": {
+    "Past Indefinite": "retold",
+    "Past Participle": "retold"
+  },
+  "rewind": {
+    "Past Indefinite": "rewound",
+    "Past Participle": "rewound"
+  },
+  "rid": {
+    "Past Indefinite": "rid/ridded",
+    "Past Participle": "rid/ridded"
+  },
+  "ride": {
+    "Past Indefinite": "rode",
+    "Past Participle": "ridden"
+  },
+  "ring": {
+    "Past Indefinite": "rang",
+    "Past Participle": "rung"
+  },
+  "rise": {
+    "Past Indefinite": "rose",
+    "Past Participle": "risen"
+  },
+  "run": {
+    "Past Indefinite": "ran",
+    "Past Participle": "run"
+  },
+  "saw": {
+    "Past Indefinite": "sawed",
+    "Past Participle": "sawn/sawed"
+  },
+  "say": {
+    "Past Indefinite": "said",
+    "Past Participle": "said"
+  },
+  "see": {
+    "Past Indefinite": "saw",
+    "Past Participle": "seen"
+  },
+  "seek": {
+    "Past Indefinite": "sought",
+    "Past Participle": "sought"
+  },
+  "sell": {
+    "Past Indefinite": "sold",
+    "Past Participle": "sold"
+  },
+  "send": {
+    "Past Indefinite": "sent",
+    "Past Participle": "sent"
+  },
+  "set": {
+    "Past Indefinite": "set",
+    "Past Participle": "set"
+  },
+  "sew": {
+    "Past Indefinite": "sewed",
+    "Past Participle": "sewn/sewed"
+  },
+  "shake": {
+    "Past Indefinite": "shook",
+    "Past Participle": "shaken"
+  },
+  "shear": {
+    "Past Indefinite": "sheared",
+    "Past Participle": "shorn/sheared"
+  },
+  "shed": {
+    "Past Indefinite": "shed",
+    "Past Participle": "shed"
+  },
+  "shine": {
+    "Past Indefinite": "shone/shined",
+    "Past Participle": "shone/shined"
+  },
+  "shit": {
+    "Past Indefinite": "shit/shat/shitted",
+    "Past Participle": "shit/shat/shitted"
+  },
+  "shoe": {
+    "Past Indefinite": "shod",
+    "Past Participle": "shod"
+  },
+  "shoot": {
+    "Past Indefinite": "shot",
+    "Past Participle": "shot"
+  },
+  "show": {
+    "Past Indefinite": "showed",
+    "Past Participle": "shown/showed"
+  },
+  "shrink": {
+    "Past Indefinite": "shrank/shrunk",
+    "Past Participle": "shrunk/shrunken"
+  },
+  "shrive": {
+    "Past Indefinite": "shrove/shrived",
+    "Past Participle": "shriven/shrived"
+  },
+  "shut": {
+    "Past Indefinite": "shut",
+    "Past Participle": "shut"
+  },
+  "sing": {
+    "Past Indefinite": "sang",
+    "Past Participle": "sung"
+  },
+  "sink": {
+    "Past Indefinite": "sank/sunk",
+    "Past Participle": "sunk"
+  },
+  "sit": {
+    "Past Indefinite": "sat",
+    "Past Participle": "sat"
+  },
+  "slay": {
+    "Past Indefinite": "slew",
+    "Past Participle": "slain"
+  },
+  "sleep": {
+    "Past Indefinite": "slept",
+    "Past Participle": "slept"
+  },
+  "slide": {
+    "Past Indefinite": "slid",
+    "Past Participle": "slid/slidden"
+  },
+  "sling": {
+    "Past Indefinite": "slung",
+    "Past Participle": "slung"
+  },
+  "slink": {
+    "Past Indefinite": "slunk",
+    "Past Participle": "slunk"
+  },
+  "slit": {
+    "Past Indefinite": "slit",
+    "Past Participle": "slit"
+  },
+  "smell": {
+    "Past Indefinite": "smelt/smelled",
+    "Past Participle": "smelt/smelled"
+  },
+  "smite": {
+    "Past Indefinite": "smote",
+    "Past Participle": "smitten"
+  },
+  "sneak": {
+    "Past Indefinite": "snuck/sneaked",
+    "Past Participle": "snuck/sneaked"
+  },
+  "sow": {
+    "Past Indefinite": "sowed",
+    "Past Participle": "sown/sowed"
+  },
+  "speak": {
+    "Past Indefinite": "spoke",
+    "Past Participle": "spoken"
+  },
+  "speed": {
+    "Past Indefinite": "sped/speeded",
+    "Past Participle": "sped/speeded"
+  },
+  "spell": {
+    "Past Indefinite": "spelt/spelled",
+    "Past Participle": "spelt/spelled"
+  },
+  "spend": {
+    "Past Indefinite": "spent",
+    "Past Participle": "spent"
+  },
+  "spill": {
+    "Past Indefinite": "spilt/spilled",
+    "Past Participle": "spilt/spilled"
+  },
+  "spin": {
+    "Past Indefinite": "spun",
+    "Past Participle": "spun"
+  },
+  "spit": {
+    "Past Indefinite": "spat/spit",
+    "Past Participle": "spat/spit"
+  },
+  "split": {
+    "Past Indefinite": "split",
+    "Past Participle": "split"
+  },
+  "spoil": {
+    "Past Indefinite": "spoilt/spoiled",
+    "Past Participle": "spoilt/spoiled"
+  },
+  "spread": {
+    "Past Indefinite": "spread",
+    "Past Participle": "spread"
+  },
+  "spring": {
+    "Past Indefinite": "sprang/sprung",
+    "Past Participle": "sprung"
+  },
+  "stand": {
+    "Past Indefinite": "stood",
+    "Past Participle": "stood"
+  },
+  "steal": {
+    "Past Indefinite": "stole",
+    "Past Participle": "stolen"
+  },
+  "stick": {
+    "Past Indefinite": "stuck",
+    "Past Participle": "stuck"
+  },
+  "sting": {
+    "Past Indefinite": "stung",
+    "Past Participle": "stung"
+  },
+  "stink": {
+    "Past Indefinite": "stank/stunk",
+    "Past Participle": "stunk"
+  },
+  "strew": {
+    "Past Indefinite": "strewed",
+    "Past Participle": "strewn/strewed"
+  },
+  "stride": {
+    "Past Indefinite": "strode",
+    "Past Participle": "stridden"
+  },
+  "strike": {
+    "Past Indefinite": "struck",
+    "Past Participle": "struck/stricken"
+  },
+  "string": {
+    "Past Indefinite": "strung",
+    "Past Participle": "strung"
+  },
+  "strip": {
+    "Past Indefinite": "stripped/stript",
+    "Past Participle": "stripped/stript"
+  },
+  "strive": {
+    "Past Indefinite": "strove/strived",
+    "Past Participle": "striven/strived"
+  },
+  "swear": {
+    "Past Indefinite": "swore",
+    "Past Participle": "sworn"
+  },
+  "sweat": {
+    "Past Indefinite": "sweat/sweated",
+    "Past Participle": "sweat/sweated"
+  },
+  "sweep": {
+    "Past Indefinite": "swept",
+    "Past Participle": "swept"
+  },
+  "swell": {
+    "Past Indefinite": "swelled",
+    "Past Participle": "swollen/swelled"
+  },
+  "swim": {
+    "Past Indefinite": "swam",
+    "Past Participle": "swum"
+  },
+  "swing": {
+    "Past Indefinite": "swung",
+    "Past Participle": "swung"
+  },
+  "take": {
+    "Past Indefinite": "took",
+    "Past Participle": "taken"
+  },
+  "teach": {
+    "Past Indefinite": "taught",
+    "Past Participle": "taught"
+  },
+  "tear": {
+    "Past Indefinite": "tore",
+    "Past Participle": "torn"
+  },
+  "tell": {
+    "Past Indefinite": "told",
+    "Past Participle": "told"
+  },
+  "think": {
+    "Past Indefinite": "thought",
+    "Past Participle": "thought"
+  },
+  "thrive": {
+    "Past Indefinite": "throve/thrived",
+    "Past Participle": "thriven/thrived"
+  },
+  "throw": {
+    "Past Indefinite": "threw",
+    "Past Participle": "thrown"
+  },
+  "thrust": {
+    "Past Indefinite": "thrust",
+    "Past Participle": "thrust"
+  },
+  "tread": {
+    "Past Indefinite": "trod",
+    "Past Participle": "trodden/trod"
+  },
+  "undergo": {
+    "Past Indefinite": "underwent",
+    "Past Participle": "undergone"
+  },
+  "underlie": {
+    "Past Indefinite": "underlay",
+    "Past Participle": "underlain"
+  },
+  "understand": {
+    "Past Indefinite": "understood",
+    "Past Participle": "understood"
+  },
+  "undertake": {
+    "Past Indefinite": "undertook",
+    "Past Participle": "undertaken"
+  },
+  "uphold": {
+    "Past Indefinite": "upheld",
+    "Past Participle": "upheld"
+  },
+  "upset": {
+    "Past Indefinite": "upset",
+    "Past Participle": "upset"
+  },
+  "wake": {
+    "Past Indefinite": "woke/waked",
+    "Past Participle": "woken/waked"
+  },
+  "wear": {
+    "Past Indefinite": "wore",
+    "Past Participle": "worn"
+  },
+  "weave": {
+    "Past Indefinite": "wove/weaved",
+    "Past Participle": "woven/weaved"
+  },
+  "wed": {
+    "Past Indefinite": "wed/wedded",
+    "Past Participle": "wed/wedded"
+  },
+  "weep": {
+    "Past Indefinite": "wept",
+    "Past Participle": "wept"
+  },
+  "wet": {
+    "Past Indefinite": "wet/wetted",
+    "Past Participle": "wet/wetted"
+  },
+  "whet": {
+    "Past Indefinite": "whetted",
+    "Past Participle": "whetted"
+  },
+  "win": {
+    "Past Indefinite": "won",
+    "Past Participle": "won"
+  },
+  "wind": {
+    "Past Indefinite": "wound",
+    "Past Participle": "wound"
+  },
+  "withdraw": {
+    "Past Indefinite": "withdrew",
+    "Past Participle": "withdrawn"
+  },
+  "withhold": {
+    "Past Indefinite": "withheld",
+    "Past Participle": "withheld"
+  },
+  "wring": {
+    "Past Indefinite": "wrung",
+    "Past Participle": "wrung"
+  },
+  "write": {
+    "Past Indefinite": "wrote",
+    "Past Participle": "written"
+  }
+}
