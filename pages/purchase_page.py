@@ -15,6 +15,8 @@ def purchase_page() -> None:
 
         Public registration is closed. Login is for the site administrator
         only, and administrative functions remain protected.
+
+        See the [privacy notice](/privacy) for what data the site processes.
         """).strip()
 
     with ui.card().classes("w-full max-w-2xl mx-auto my-4"):

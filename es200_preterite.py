@@ -70,6 +70,7 @@ async def es_preterite_page():
         ui.button("⬅️ Back to Menu", on_click=lambda: ui.navigate.to("/")).classes(
             "absolute top-4 left-4"
         )
+        ui.link("Privacy", "/privacy").classes("absolute top-4 right-4 text-sm")
         ui.icon("event_busy", size="4rem").classes("text-yellow-600 m-4")
         ui.label("🇪🇸 Spanish Preterite Irregular Verbs Conjugation Trainer").classes(
             "text-3xl font-bold mb-6 text-center"

@@ -52,7 +52,7 @@ The historical `Access` model and helpers remain for schema compatibility, but n
 [`render.yaml`](render.yaml) declares a Python web service and runs:
 
 ```bash
-uvicorn main:app --host 0.0.0.0 --port $PORT --workers 1
+uvicorn main:app --host 0.0.0.0 --port $PORT --workers 1 --no-access-log
 ```
 
 Production configuration is supplied outside the repository:
@@ -68,7 +68,7 @@ Local dotenv files and database files are excluded by [`.gitignore`](.gitignore)
 
 ## Tests and continuous integration
 
-The suite contains **40 test cases**. [`.github/workflows/qa.yml`](.github/workflows/qa.yml) runs on pushes and pull requests to `main`, installs the application and development dependencies, compiles every tracked Python file, and executes pytest on Python 3.12.
+The suite contains **49 test cases**. [`.github/workflows/qa.yml`](.github/workflows/qa.yml) runs on pushes and pull requests to `main`, installs the application and development dependencies, compiles every tracked Python file, and executes pytest on Python 3.12.
 
 Run the same checks locally from the repository root:
 
@@ -77,7 +77,7 @@ python -m compileall -q .
 python -m pytest -v
 ```
 
-Coverage includes password hashing, historical access helpers, dataset invariants, closed registration (no sign-up form, link or endpoint, with administrator login still working), anonymous trainer access, administrator authorization and lifecycle safeguards, login-value serialization, and disabled SQL logging.
+Coverage includes password hashing, historical access helpers, dataset invariants, closed registration (no sign-up form, link or endpoint, with administrator login still working), the privacy notice (page, links from every public page, and no access log in the start command), anonymous trainer access, administrator authorization and lifecycle safeguards, login-value serialization, and disabled SQL logging.
 
 The page tests exercise real handler bodies with NiceGUI elements in isolation. They do not provide browser end-to-end coverage, full application authentication against PostgreSQL, deployment verification, payment testing, or exhaustive linguistic validation of every conjugated form. See the migration limitation below before applying the historical migrations to a new database.
 
@@ -147,6 +147,7 @@ Migration execution from a clean PostgreSQL database is not covered by the curre
 | `y_data/` | Runtime language and conjugation datasets |
 | `dict_converter/` | Dataset conversion and validation utilities |
 | `pages/purchase_page.py` | Compatibility page describing free access and closed registration |
+| `pages/privacy_page.py` | Privacy notice in English and Spanish at `/privacy` |
 | `tests/`, `pytest.ini`, `.github/workflows/qa.yml` | Automated tests and CI |
 | `render.yaml`, `requirements*.txt` | Deployment declaration and dependencies |
 

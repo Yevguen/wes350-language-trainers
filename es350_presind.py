@@ -99,6 +99,7 @@ async def es_presind_page():
         ui.button("⬅️ Back to Menu", on_click=lambda: ui.navigate.to("/")).classes(
             "absolute top-4 left-4"
         )
+        ui.link("Privacy", "/privacy").classes("absolute top-4 right-4 text-sm")
         ui.icon("flag", size="4rem").classes("text-red-500 m-4")
         ui.label(
             "🇪🇸 Spanish Present Indicative Irregular Verbs Conjugation Trainer"

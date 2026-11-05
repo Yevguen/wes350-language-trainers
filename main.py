@@ -24,7 +24,7 @@ from db import (
     get_async_session,
     ensure_admin_exists,
 )
-from pages import purchase_page
+from pages import privacy_page, purchase_page  # noqa: F401
 import en200_irrvbs, es200_preterite, es350_presind, fr200_presind  # noqa: F401
 import admin_page  # This will auto-register the @ui.page
 from dotenv import load_dotenv
@@ -311,6 +311,7 @@ async def main_menu(
                         ui.link("Login", "/login").classes("nicegui-link text-lg")
                         if user is not None:
                             logout_button()
+                    ui.link("Privacy notice", "/privacy").classes("nicegui-link text-sm mt-2")
             # Right
             with ui.column().classes(
                 "w-full md:w-1/3 overflow-auto max-h-[80vh] bg-blue-50 p-2 border"

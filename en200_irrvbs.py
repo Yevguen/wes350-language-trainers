@@ -61,6 +61,7 @@ async def en_irrvbs_page():
         ui.button("⬅️ Back to Menu", on_click=lambda: ui.navigate.to("/")).classes(
             "absolute top-4 left-4"
         )
+        ui.link("Privacy", "/privacy").classes("absolute top-4 right-4 text-sm")
         ui.icon("translate", size="4rem").classes("text-blue-500 m-4")
         ui.label("🇬🇧 English Irregular Verbs Conjugation Trainer").classes(
             "text-3xl font-bold mb-6 text-center"

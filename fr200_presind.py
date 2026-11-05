@@ -63,6 +63,7 @@ async def fr_presind_page():
         ui.button("⬅️ Back to Menu", on_click=lambda: ui.navigate.to("/")).classes(
             "absolute top-4 left-4"
         )
+        ui.link("Privacy", "/privacy").classes("absolute top-4 right-4 text-sm")
         ui.icon("campaign", size="4rem").classes("text-indigo-500 m-4")  # French theme
         ui.label(
             "🇫🇷 French Present Indicative Irregular Verbs Conjugation Trainer"
