@@ -14,7 +14,6 @@ from datetime import datetime, timedelta
 import asyncio
 from functools import partial
 from auth import fastapi_users, auth_backend
-from auth_custom_register import router as register_router
 from contextlib import asynccontextmanager
 from fastapi.responses import RedirectResponse
 from db import (
@@ -46,14 +45,15 @@ get_optional_user = fastapi_users.current_user(optional=True)
 
 COOKIE_NAME = auth_backend.transport.cookie_name  # "learning_lang_auth"
 
-# --- Auth & custom register routes go on the FastAPI app (not nicegui_app) ---
+# --- Auth (login/logout only) routes go on the FastAPI app (not nicegui_app) ---
+# Public registration is switched off: no route creates accounts. The only
+# account is the administrator provisioned from ADMIN_EMAIL/ADMIN_PASSWORD.
 app.include_router(
     fastapi_users.get_auth_router(auth_backend), prefix="/auth", tags=["auth"]
 )
 app.include_router(
     fastapi_users.get_auth_router(auth_backend), prefix="/auth/jwt", tags=["auth"]
 )
-app.include_router(register_router)  # keep your custom /auth/register
 
 
 # --- lifespan: ensure admin exists ------------------------------------------
@@ -306,10 +306,9 @@ async def main_menu(
                             "trainer-link nicegui-link"
                         )
                     ui.separator().classes("my-4")
-                    ui.label("Optional account").classes("text-sm")
+                    ui.label("Administrator only").classes("text-sm")
                     with ui.row().classes("justify-between w-full"):
                         ui.link("Login", "/login").classes("nicegui-link text-lg")
-                        ui.link("Register", "/register").classes("nicegui-link text-lg")
                         if user is not None:
                             logout_button()
             # Right
@@ -354,37 +353,9 @@ async def login_page() -> None:
 
 @ui.page("/register")
 async def register_page() -> None:
-    email = ui.input("Email")
-    password = ui.input("Password", password=True)
-    password2 = ui.input("Confirm password", password=True)
-
-    def submit() -> None:
-        if password.value != password2.value:
-            ui.notify("Passwords do not match", color="negative")
-            return
-
-        register_btn.disable()
-        ui.run_javascript(
-            f"""
-    async function doRegister() {{
-    const r = await fetch('/auth/register', {{
-        method: 'POST',
-        headers: {{ 'Content-Type': 'application/json' }},
-        body: JSON.stringify({{ email: {email.value!r}, password: {password.value!r} }}),
-        credentials: 'include'
-    }});
-    if (r.ok) {{
-        window.location.href = '/login';
-    }} else {{
-        const t = await r.text();
-        alert('Registration failed: ' + t);
-    }}
-    }}
-    doRegister();
-    """
-        )
-
-    register_btn = ui.button("Register", on_click=submit)
+    ui.label("Registration is closed.").classes("text-lg")
+    ui.label("All four trainers are free and need no account.")
+    ui.link("Back to the trainers", "/")
 
 
 # --- Bind NiceGUI to the FastAPI app (CRUCIAL for Render/Uvicorn) -------------

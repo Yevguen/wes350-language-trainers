@@ -13,8 +13,8 @@ def purchase_page() -> None:
         **No payment, registration, or login is required.** Open any trainer
         from the home page and start practicing.
 
-        Optional accounts, registration, login, and logout remain available.
-        Administrative functions remain protected.
+        Public registration is closed. Login is for the site administrator
+        only, and administrative functions remain protected.
         """).strip()
 
     with ui.card().classes("w-full max-w-2xl mx-auto my-4"):

@@ -3,7 +3,7 @@
 [![Render deployment](https://img.shields.io/badge/Deployment-Render-00c7b7)](https://languages-learning-webservice.onrender.com/)
 [![WES350 QA](https://github.com/Yevguen/wes350-language-trainers/actions/workflows/qa.yml/badge.svg)](https://github.com/Yevguen/wes350-language-trainers/actions/workflows/qa.yml)
 
-WES350 is a Python web application for practicing English, Spanish, and French verb forms. Its four NiceGUI trainers are public and free to use without registration, login, payment, or an access grant. Optional accounts provide authentication and protected user administration.
+WES350 is a Python web application for practicing English, Spanish, and French verb forms. Its four NiceGUI trainers are public and free to use without registration, login, payment, or an access grant. Public registration is closed; the only account is the site administrator, who uses it for protected user administration.
 
 Try the **[live application on Render](https://languages-learning-webservice.onrender.com/)**. Production persistence uses Neon PostgreSQL through `DATABASE_URL`.
 
@@ -31,16 +31,16 @@ The verb lists and conjugation data in this repository are original project data
 | Schema history | Alembic configuration and migrations under `alembic/` |
 | QA | Python 3.12, pytest `>=8,<9`, and GitHub Actions |
 
-`main.py` mounts the public trainer pages, account pages, authentication routers, and NiceGUI application. `db.py` defines the `User`, `Access`, `Quiz`, and `Score` models and the async session infrastructure. The active trainer handlers display per-exercise feedback; they do not currently persist quiz results to `Quiz` or `Score`.
+`main.py` mounts the public trainer pages, the administrator login page, the login/logout routers, and the NiceGUI application. `db.py` defines the `User`, `Access`, `Quiz`, and `Score` models and the async session infrastructure. The active trainer handlers display per-exercise feedback; they do not currently persist quiz results to `Quiz` or `Score`.
 
-The historical `Access` model and helpers remain for schema compatibility, but no plan or grant lookup controls the four public trainer routes. The `/purchase` compatibility page explains that the trainers are free and that accounts are optional.
+The historical `Access` model and helpers remain for schema compatibility, but no plan or grant lookup controls the four public trainer routes. The `/purchase` compatibility page explains that the trainers are free and that registration is closed.
 
 ## Security design
 
 - `SECRET` is required for JWT signing; no application secret is stored in the repository.
 - Authentication uses a Secure, `SameSite=lax` cookie and a 14-day JWT lifetime.
 - Passwords are hashed through Passlib, using Argon2 by default with bcrypt support.
-- Public registration cannot set `is_superuser`, `is_active`, or `is_verified` privilege fields.
+- Public registration is switched off: no route creates accounts, and `/register` shows a closed notice. Only the administrator can create users, from `/admin`.
 - `/admin` requires an authenticated active superuser.
 - Administration prevents self-deletion, self-demotion, self-deactivation, and removal or demotion of the last active administrator.
 - Login form values are JSON-serialized before use in browser JavaScript.
@@ -68,7 +68,7 @@ Local dotenv files and database files are excluded by [`.gitignore`](.gitignore)
 
 ## Tests and continuous integration
 
-The suite contains **41 test cases**. [`.github/workflows/qa.yml`](.github/workflows/qa.yml) runs on pushes and pull requests to `main`, installs the application and development dependencies, compiles every tracked Python file, and executes pytest on Python 3.12.
+The suite contains **40 test cases**. [`.github/workflows/qa.yml`](.github/workflows/qa.yml) runs on pushes and pull requests to `main`, installs the application and development dependencies, compiles every tracked Python file, and executes pytest on Python 3.12.
 
 Run the same checks locally from the repository root:
 
@@ -77,7 +77,7 @@ python -m compileall -q .
 python -m pytest -v
 ```
 
-Coverage includes password hashing, historical access helpers, dataset invariants, registration-page construction, registration privilege hardening, anonymous trainer access, administrator authorization and lifecycle safeguards, login-value serialization, and disabled SQL logging.
+Coverage includes password hashing, historical access helpers, dataset invariants, closed registration (no sign-up form, link or endpoint, with administrator login still working), anonymous trainer access, administrator authorization and lifecycle safeguards, login-value serialization, and disabled SQL logging.
 
 The page tests exercise real handler bodies with NiceGUI elements in isolation. They do not provide browser end-to-end coverage, full application authentication against PostgreSQL, deployment verification, payment testing, or exhaustive linguistic validation of every conjugated form. See the migration limitation below before applying the historical migrations to a new database.
 
@@ -138,15 +138,15 @@ Migration execution from a clean PostgreSQL database is not covered by the curre
 
 | Path | Purpose |
 | --- | --- |
-| `main.py` | FastAPI app, NiceGUI mounting, navigation, account UI, and auth router wiring |
+| `main.py` | FastAPI app, NiceGUI mounting, navigation, administrator login UI, and auth router wiring |
 | `en200_irrvbs.py`, `es200_preterite.py`, `es350_presind.py`, `fr200_presind.py` | Active trainer pages and scoring handlers |
-| `auth.py`, `auth_custom_register.py`, `password.py` | Authentication, registration, and password helpers |
+| `auth.py`, `password.py` | Authentication and password helpers |
 | `admin_page.py` | Protected user administration |
 | `access_utils.py` | Historical access helpers retained for compatibility |
 | `db.py`, `alembic/`, `alembic.ini` | Models, sessions, startup admin provisioning, and migrations |
 | `y_data/` | Runtime language and conjugation datasets |
 | `dict_converter/` | Dataset conversion and validation utilities |
-| `pages/purchase_page.py` | Compatibility page describing free access and optional accounts |
+| `pages/purchase_page.py` | Compatibility page describing free access and closed registration |
 | `tests/`, `pytest.ini`, `.github/workflows/qa.yml` | Automated tests and CI |
 | `render.yaml`, `requirements*.txt` | Deployment declaration and dependencies |
 
